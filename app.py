@@ -15,19 +15,19 @@ st.write('Enter customer details:')
 
 total_day_charge = st.number_input(
     "Total Day Charge",
-    min_value=0.0
+    min_value=0.0,
     value=40.0
 )
 
 total_day_min = st.number_input(
     "Total Day Minutes",
-    min_value=0.0
+    min_value=0.0,
     value=230.0
 )
 
 customer_service_calls = st.number_input(
     "Customer Service Calls",
-    min_value=0
+    min_value=0,
     value=4
 )
 
@@ -44,13 +44,13 @@ else:
 
 total_eve_min = st.number_input(
     "Total Evening Minutes",
-    min_value=0
+    min_value=0,
     value=210
 )
 
 total_eve_chg = st.number_input(
     "Total Evening Charge",
-    min_value=0
+    min_value=0,
     value=20
 )
 
